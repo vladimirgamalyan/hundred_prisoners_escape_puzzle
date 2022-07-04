@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 
     const int prisoners_count = 100;
     const int prisoner_try_count = 50;
-    const int iteration_count = 100000;
+    const int iteration_count = 1000000;
 
     auto rd = std::random_device {};
     auto rng = std::default_random_engine { rd() };
