@@ -45,5 +45,5 @@ int main(int argc, char *argv[]) {
     auto result = static_cast<double>(good_iteration_count) / iteration_count;
     std::cout << result << '\n';
 
-    return result > 0.3 ? EXIT_SUCCESS : EXIT_FAILURE;
+    return result > 10.3 ? EXIT_SUCCESS : EXIT_FAILURE;
 }
