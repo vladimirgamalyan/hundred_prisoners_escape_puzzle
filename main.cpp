@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
             ++good_iteration_count;
     }
 
-    double result = static_cast<double>(good_iteration_count) / iteration_count;
+    auto result = static_cast<double>(good_iteration_count) / iteration_count;
     std::cout << result << '\n';
 
     return EXIT_SUCCESS;
